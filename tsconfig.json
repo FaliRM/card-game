@@ -12,6 +12,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"],
+      "_components": ["./src/components"]
+    }
+  },
   "exclude": [
     "node_modules",
     "babel.config.js",
